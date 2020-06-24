@@ -1,6 +1,7 @@
 # ADisc-MSDA
 Code for Unsupervised Multi-Source Domain Adaptation for Regression [1] paper
 
+---
 
 Every experiment was made using CUDA Drivers 9.0 and a Linux machine.
 Non GPU users can turn it down by specifying the device to 'cpu'.
