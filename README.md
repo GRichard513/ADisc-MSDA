@@ -6,8 +6,10 @@ Every experiment was made using CUDA Drivers 9.0 and a Linux machine.
 Non GPU users can turn it down by specifying the device to 'cpu'.
 To reproduce our environment, one can use  the following line: **conda env create -f environment.yml**
 
-Data for the Amazon experiments are not available but can be downloaded and processed by running create_amazon.py
+Data for the Amazon experiments can be downloaded and processed by running create_amazon.py
 Code also includes **DANN** [2] and **MDAN** [3]. For [3], the code was largely inspired from their original implementation (https://github.com/KeiraZhao/MDAN).
+
+---
 
 [1] Richard, G., de Mathelin, A., Hébrail, G., Mougeot, M., & Vayatis, N. (2020). Unsupervised Multi-Source Domain Adaptation for Regression.
 
